@@ -1,0 +1,51 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #87ae73;
+  padding: 1rem 0;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 8%;
+}
+
+ul {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+h1 {
+  text-transform: uppercase;
+}

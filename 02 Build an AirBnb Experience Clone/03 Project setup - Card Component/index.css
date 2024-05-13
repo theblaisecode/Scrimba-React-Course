@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+}
+
+nav {
+  padding: 1rem 2rem;
+  box-shadow: 0.1px 5px 13px rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+  width: 30%;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+.hero img {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  width: 65%;
+}
+
+.card {
+  max-width: 176px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardTop {
+  position: relative;
+}
+
+.cardTop img {
+  max-width: 176px;
+  border-radius: 10px;
+}
+
+.cardTop small {
+  position: absolute;
+  left: 0;
+  margin: 8px;
+  background: #fff;
+  font-size: 10.8px;
+  padding: 3px 6px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.cardBottom {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating img {
+  width: 14px;
+  margin-right: 5px;
+}
+
+.highlight {
+  color: #918e9b;
+}
+
+.cardBottom h2 {
+  font-weight: normal;
+}
+
+.price span {
+  font-weight: bold;
+}
