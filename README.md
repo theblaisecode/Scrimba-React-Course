@@ -1,10 +1,7 @@
 # Learn React - Scrimba Course
 The ultimate React 101 - the perfect starting point for any React beginner. Learn the basics of modern React by solving 140+ interactive coding challenges and building eight fun projects.
 
-### Curriculum
-
-#
-
+## 🔶 Curriculum
 <br/>
 
 | # Day |                                                                       Topics                                                                        |                     Status                     |
@@ -22,13 +19,13 @@ The ultimate React 101 - the perfect starting point for any React beginner. Lear
 
 <br/>
 
-## Tech Stack
+## 🔶 Tech Stack
 
 - ReactJS
 
 <br/>
 
-## Authors
+## 🔶 Authors
 
 - GitHub - [@theblaisecode](https://github.com/theblaisecode)
 - Twitter - [@theblaisecode](https://twitter.com/theblaisecode)
