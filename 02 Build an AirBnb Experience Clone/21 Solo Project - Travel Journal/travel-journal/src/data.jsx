@@ -1,7 +1,11 @@
+import fijiMountain from "../public/mount-fuji.jpg"
+import sydneyOperaHouse from "../public/sydney-opera-house.jpg"
+import geirangerfjord from "../public/geirangerfjord.jpg"
+
 export default [
   {
     id: 1,
-    coverImg: "mount-fuji.jpg",
+    coverImg: fijiMountain,
     imgAlt: "Mount Fuji",
     country: "japan",
     title: "Mount Fuji",
@@ -12,7 +16,7 @@ export default [
   },
   {
     id: 2,
-    coverImg: "sydney-opera-house.jpg",
+    coverImg: sydneyOperaHouse,
     imgAlt: "Sydney Opera House",
     country: "australia",
     title: "Sydney Opera House",
@@ -23,7 +27,7 @@ export default [
   },
   {
     id: 3,
-    coverImg: "geirangerfjord.jpg",
+    coverImg: geirangerfjord,
     imgAlt: "Geirangerfjord",
     country: "norway",
     title: "Geirangerfjord",

@@ -1,3 +1,4 @@
+import logo from "../img/logo.png"
 import "../style.css"
 
 export default function Header() {
@@ -5,7 +6,7 @@ export default function Header() {
     <header>
       <div className="container">
         <div className="title">
-          <img src="/logo.png" alt="image" />
+          <img src={logo} alt="image" />
           my travel journal.
         </div>
       </div>

@@ -1,18 +1,30 @@
+import data from "../data";
+import locationImg from "../img/location.png";
 import "../style.css";
 
-export default function Post(props) {
+export default function Post({
+  id,
+  coverImg,
+  imgAlt,
+  country,
+  title,
+  arrival,
+  departure,
+  description,
+}) {
+  console.log(data);
   return (
     <>
-      <div className="posts">
+      <div className="posts" key={id}>
         <div className="contentTop">
-          <img src={`/${props.coverImg}`} alt={props.imgAlt} />
+          <img src={coverImg} alt={imgAlt} />
         </div>
 
         <div className="contentBottom">
           <div className="location">
             <span>
-              <img src="/location.png" alt="Location Icon" />
-              {props.country}
+              <img src={locationImg} alt="Location Icon" />
+              {country}
             </span>
             <a
               href="#"
@@ -22,9 +34,9 @@ export default function Post(props) {
             </a>
           </div>
 
-          <h2 className="country">{props.title}</h2>
-          <small className="date">{`${props.arrival} - ${props.departure}`}</small>
-          <p className="description">{props.description}</p>
+          <h2 className="country">{title}</h2>
+          <small className="date">{`${arrival} - ${departure}`}</small>
+          <p className="description">{description}</p>
         </div>
       </div>
     </>
