@@ -1,3 +1,4 @@
+import trollFace from "../img/troll-face.png";
 import "../style.css";
 
 export default function Header() {
@@ -6,7 +7,7 @@ export default function Header() {
       <div className="container">
         <div className="headerContent">
           <div className="contentTop">
-            <img src="/troll-face.png" alt="laughing face" />
+            <img src={trollFace} alt="laughing face" />
             <span>Meme Generator</span>
           </div>
 
